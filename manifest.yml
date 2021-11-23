@@ -1,0 +1,9 @@
+---
+applications:
+- name: Demo-HelloWorld-java
+  random-route: true
+  path: target/hello-1.0-SNAPSHOT.jar
+  memory: 1G
+  instances: 2
+  buildpacks:
+    - java_buildpack
